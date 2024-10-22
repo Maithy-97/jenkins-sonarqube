@@ -1,0 +1,5 @@
+node{
+stage('Cloning Git'){
+git branch:"main", credentials: 'GIT_REPO', url:'hhtps://github.com/vishal003/jenkins-sonarcube.git'
+}
+}
